@@ -1,1 +1,25 @@
-
+ion-content{
+    --background: #fff url('../../assets/img/pizza.jpg') no-repeat center center / cover;
+}
+.card{
+    // width: 135px;
+    // height: 183px;
+}
+.largText{
+    font-size: 15px;
+    font-weight: bold
+}
+.smallText{
+    font-size: 9px;
+}
+.card_img{
+    // width: 39px;
+    height: 70px;
+    padding-top:22px
+}
+.card_content{
+    text-align: center;
+}
+.text_Div{
+    padding-top: 40px;
+}
