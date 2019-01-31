@@ -1,6 +1,6 @@
 <ion-app>
   <ion-split-pane>
-    <ion-menu >
+    <ion-menu type="overlay">
         <ion-header>
             <ion-toolbar color="danger">
                 <ion-title>
@@ -11,7 +11,7 @@
         <ion-content color="danger">
             <ion-list>
               <ion-menu-toggle auto-hide="false" *ngFor="let p of appMenu" >
-                  <ion-item   [routerDirection]="'root'" [routerLink]="[p.url]">
+                  <ion-item   [routerDirection]="'root'" [routerLink]="[p.url]" color="danger">
                       <ion-icon name="{{p.icon}}"></ion-icon>&nbsp;&nbsp;
                       <ion-label>{{p.title}}</ion-label>
                   </ion-item>
