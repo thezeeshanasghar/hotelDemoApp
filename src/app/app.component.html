@@ -9,7 +9,7 @@
             </ion-toolbar>
         </ion-header>
         <ion-content color="danger">
-            <ion-list>
+            <ion-list style="background: var(--ion-color-base)">
               <ion-menu-toggle auto-hide="false" *ngFor="let p of appMenu" >
                   <ion-item   [routerDirection]="'root'" [routerLink]="[p.url]" color="danger">
                       <ion-icon name="{{p.icon}}"></ion-icon>&nbsp;&nbsp;
