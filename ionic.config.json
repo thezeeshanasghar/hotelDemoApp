@@ -1,5 +1,7 @@
 {
   "name": "hotelDemoApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
