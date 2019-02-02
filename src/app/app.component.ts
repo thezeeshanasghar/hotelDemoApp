@@ -17,7 +17,7 @@ export class AppComponent {
     {title:'Locations', url:'/home',icon:'egg'},
     {title:'My Basket', url:'/home',icon:'basket'},
     {title:'Feedback', url:'/home',icon:'checkmark-circle-outline'},
-    {title:'Edit Profile', url:'/home',icon:'person-add'}
+    {title:'Edit Profile', url:'/profile',icon:'person-add'}
   ];
 
   constructor(
